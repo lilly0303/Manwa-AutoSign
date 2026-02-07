@@ -1,0 +1,3 @@
+cloudscraper
+requests
+curl_cffi
