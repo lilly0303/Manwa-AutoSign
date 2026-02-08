@@ -3,14 +3,14 @@ Markdown
 
 基于 Python 的 Web 协议逆向工程实战项目。本项目通过 TLS 指纹伪造和会话劫持技术，实现了对目标站点的自动化签到与积分查询。
 
-## ✨ 特性 (Features)
+## 特性 (Features)
 
 * **WAF 绕过**: 集成 `cloudscraper`，完美绕过 Cloudflare 5秒盾防护。
 * **多账号支持**: 支持配置无限个账号，自动队列执行。
 * **风控规避**: 内置随机抖动 (Jitter) 延时，模拟真人操作频率。
 * **隐私安全**: 本地运行，Cookie 数据不经由第三方服务器。
 
-## 🛠️ 快速开始 (Quick Start)
+## 快速开始 (Quick Start)
 
 ### 1. 安装依赖
 ```bash
