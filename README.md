@@ -3,7 +3,7 @@ Markdown
 
 基于 Python 的 Web 协议逆向工程实战项目。本项目通过 TLS 指纹伪造和会话劫持技术，实现了对目标站点的自动化签到与积分查询。
 
-## 特性 (Features)
+## Features
 
 * **WAF 绕过**: 集成 `cloudscraper`，完美绕过 Cloudflare 5秒盾防护。
 * **多账号支持**: 支持配置无限个账号，自动队列执行。
@@ -17,13 +17,17 @@ Markdown
 pip install -r requirements.txt
 
 运行
-2. 配置账号
+```
+
+### 2. 配置账号
 打开脚本文件，在 accounts 列表中填入你的 Cookie：
 
-Python
+```Python
 accounts = [
     "uid=12345; passwd=xxxx; PHPSESSID=xxxx...",
 ]
+```
+
 如何获取 Cookie?
 
 浏览器打开目标网站并登录。
@@ -34,10 +38,14 @@ accounts = [
 
 复制请求头中的 Cookie 完整字符串。
 
-3. 运行
-Bash
+### 3. 运行
+
+```Bash
 python manwa_auto.py
+```
+
 ⚠️ 免责声明 (Disclaimer)
+
 本项目仅供 Python 学习与逆向工程研究使用。
 
 请勿用于商业用途或非法用途。
