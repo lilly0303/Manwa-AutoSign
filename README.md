@@ -34,9 +34,9 @@ accounts = [
 
 按 F12 打开开发者工具 -> 网络(Network)。
 
-刷新页面，找到 ucenter 或 welfare 请求。
+刷新页面，找到 login请求。
 
-复制请求头中的 Cookie 完整字符串。
+复制请求中的 Cookie 完整字符串。
 
 ### 3. 运行
 
